@@ -6,7 +6,7 @@
 
 body{
     background-color: rgb(55, 55, 55);
-    color: aqua;
+    color: red;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,7 @@ h1{
 }
 
 button{
-    background-color: aquamarine;
+    background-color: rgb(141, 141, 141);
     border: none;
     height: 6vh;
     width: 40vw;
