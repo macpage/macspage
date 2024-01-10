@@ -5,8 +5,8 @@
 }
 
 body{
-    background-color: rgb(55, 55, 55);
-    color: rgb(0, 200, 255);
+    background-color: rgb(246, 212, 123);
+    color: rgb(80, 80, 80);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,11 +18,22 @@ h1{
     text-align: center;
 }
 
+#counter{
+    padding: 10vh;
+    font-size: 40px;
+}
+
 button{
-    background-color: rgb(141, 141, 141);
+    
     border: none;
-    height: 6vh;
-    width: 40vw;
+    height: 20vh;
+    width: 20vh;
     font-size: 24px;
-    margin-top: 20vh;
+   
+    
+}
+
+img{
+    width: 20vh;
+    height: 20vh;
 }
