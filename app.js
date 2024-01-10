@@ -3,7 +3,7 @@ button = document.querySelector('#cookie_button');
 counter = 2;
 let jumpSound = new Audio('sounds/jump.mp3');
 button.addEventListener('click', () => {
-  jumpSound.volume = 0.1;
+  jumpSound.volume = 0.025;
   jumpSound.play();
   document.querySelector('img').classList.add('jump');
   console.log('lol');
