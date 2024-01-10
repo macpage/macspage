@@ -1,5 +1,8 @@
 button = document.querySelector('#cookie_button');
-button.addEventListener('click', console.log('BRTOOO'));
+counter = 1;
+button.addEventListener('click', () => {
+  console.log('lol');
+  document.querySelector('#counter').innerHTML = counter++;
+});
 
-document.querySelector('#counter').innerHTML = 3;
 console.log(counter);
