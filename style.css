@@ -19,8 +19,8 @@ h1{
 }
 
 #counter{
-    padding: 10vh;
-    font-size: 40px;
+    padding: 9vh;
+    font-size: 60px;
 }
 
 button{
@@ -30,6 +30,7 @@ button{
     width: 20vh;
     font-size: 24px;
    background-color: transparent;
+   padding-top: 2vh;
     
 }
 
